@@ -1,0 +1,99 @@
+header {
+    margin-top: 80px;
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 50;
+}
+
+.header__container {
+    display: flex;
+    align-items: center;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    letter-spacing: 2px;
+}
+
+.burger {
+    margin-right: 44px;
+}
+
+.burger__item {
+    height: 36px;
+    width: 36px;
+    background: $orange;
+    border-radius: 50%;
+}
+
+.header__menu {
+    flex: 1 1 auto;
+}
+
+.menu__list {
+    display: flex;
+    padding: 18px 0;
+}
+
+.menu__list-item {
+    margin-right: 34px;
+
+    a:hover {
+        color: white;
+        text-decoration: underline;
+    }
+}
+
+.menu__link {
+    color: $grey;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+.header__buttons {
+    display: flex;
+    & > *:not(:last-child) {
+        margin-right: 20px;
+    }
+}
+
+.header__btn {
+    white-space: nowrap;
+    padding: 0 27px;
+    font-size: 14px;
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+    border-radius: 4px;
+    min-height: 36px;
+    padding: 0 28px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.btn-in {
+    color: $orange;
+    border: 1px solid $orange;
+
+    &:hover {
+        color: $white;
+        border: 1px solid $orange;
+        background: $orange;
+        transition: all 0.2s linear;
+    }
+}
+
+.btn-up {
+    border: 1px solid $orange;
+    background: $orange;
+    box-shadow: -11px 18px 37px 0 rgba(242, 153, 74, 0.13);
+
+    &:hover {
+        color: $orange;
+        border: 1px solid $orange;
+        background: none;
+        transition: all 0.2s linear;
+    }
+}

@@ -1,0 +1,31 @@
+.project {
+    padding: 20px 0;
+    margin-bottom: 80px;
+}
+
+.project__btn {
+    margin-bottom: -120px;
+    position: relative;
+    z-index: 2;
+}
+
+.project__header {
+    font-size: 36px;
+    color: $green;
+    text-align: center;
+    padding: 0 160px;
+    line-height: 116%;
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+    margin-bottom: 45px;
+
+    span {
+        color: $orange;
+    }
+}
+
+.project__img {
+    margin: 0 auto;
+    position: relative;
+    z-index: 1;
+}

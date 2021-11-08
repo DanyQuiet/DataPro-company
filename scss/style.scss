@@ -1,0 +1,101 @@
+@import "_variable";
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700;900&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700;900&family=Rubik:wght@400;500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=ABeeZee:ital@1&display=swap");
+
+*,
+*::before,
+*::after {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+input,
+button {
+    outline: none;
+}
+
+body {
+    background: #241752;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+    overflow: hidden;
+}
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 20px;
+    letter-spacing: 0.2px;
+    box-sizing: border-box;
+}
+
+.common-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.common-btn-link {
+    font-size: 12px;
+    color: $white;
+    line-height: 166%;
+    padding: 14px 30px;
+    border-radius: 3px;
+    background: $orange;
+    font-family: "Rubik", sans-serif;
+    font-weight: 500;
+    letter-spacing: 0.2px;
+    border: 1px solid $orange;
+    box-shadow: -11px 18px 37px 0 rgba(242, 153, 74, 0.13);
+
+    text-transform: uppercase;
+    cursor: pointer;
+
+    &:hover {
+        color: $orange;
+        border: 1px solid $orange;
+        background: none;
+        transition: all 0.2s linear;
+    }
+}
+
+.img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+}
+
+@import "_header";
+@import "_main";
+@import "_logo";
+@import "_choice";
+@import "_traffic";
+@import "_statist";
+@import "_project";
+@import "_project";
+@import "_finding";
+@import "_reasons";
+@import "_footer";
+@import "_adaptive";

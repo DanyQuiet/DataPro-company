@@ -1,0 +1,234 @@
+@media (max-width: 1024px) {
+    header {
+        margin-top: 20px;
+    }
+
+    .header__container {
+        flex-wrap: wrap;
+    }
+
+    .main__intro {
+        padding-top: 180px;
+    }
+
+    .main__image img {
+        opacity: 0.4;
+    }
+
+    .choice {
+        margin-bottom: 80px;
+    }
+
+    .choice__column {
+        padding: 8px 5px;
+        flex: 1 1 50%;
+    }
+
+    .choice__img {
+        flex: 0 0 35px;
+    }
+
+    .traffic {
+        margin-bottom: 0;
+    }
+
+    .traffic-helper {
+        margin-bottom: 100px;
+    }
+
+    .traffic__content {
+        padding: 5px 0px 0px 0px;
+    }
+
+    .project__header {
+        padding: 0;
+    }
+
+    .finding__row {
+        flex-direction: column-reverse;
+    }
+
+    .finding__col:first-child {
+        margin: 0 auto;
+    }
+
+    .finding__col:last-child {
+        margin-bottom: 40px;
+    }
+}
+
+@media (max-width: 768px) {
+    .main__intro {
+        padding-top: 160px;
+    }
+
+    .main__subtitle {
+        font-size: 16px;
+    }
+
+    .main__title {
+        font-size: 38px;
+    }
+
+    .main__image img {
+        display: none;
+    }
+
+    .menu__list-item {
+        margin-right: 25px;
+    }
+    .menu__link {
+        font-size: 15px;
+    }
+
+    .traffic-helper {
+        margin-bottom: 30px;
+    }
+
+    .traffic__body {
+        display: flex;
+        flex-direction: column;
+        padding: 0;
+        text-align: center;
+    }
+
+    .traffic__content {
+        max-width: 100%;
+        padding: 24px 0px 38px 0px;
+    }
+
+    .statist__title {
+        padding: 0;
+    }
+
+    .statist__row {
+        flex-wrap: wrap;
+    }
+
+    .statist__col {
+        flex: 1 1 50%;
+    }
+
+    .statist__num {
+        margin-top: 20px;
+    }
+
+    .reasons__wrapper {
+        margin: 0px -10px;
+    }
+
+    .footer__header {
+        margin-bottom: 20px;
+    }
+
+    .footer__row {
+        margin: 0 -15px 30px -15px;
+    }
+
+    .footer__copy {
+        margin-bottom: 20px;
+    }
+}
+
+@media (max-width: 500px) {
+    .container {
+        padding: 0 10px;
+    }
+
+    .menu__list-item {
+        margin-right: 10px;
+    }
+
+    .menu__link {
+        font-size: 10px;
+    }
+
+    .header__btn {
+        padding: 0 20px;
+    }
+
+    .main__btn {
+        min-width: 140px;
+    }
+
+    .main__content {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .choice__column {
+        flex: 1 1 100%;
+    }
+
+    .choice {
+        margin-bottom: 10px;
+    }
+
+    .statist {
+        margin-bottom: 70px;
+    }
+
+    .project {
+        margin-bottom: 30px;
+    }
+
+    .statist__col {
+        padding: 10px;
+    }
+
+    .finding {
+        margin-bottom: 60px;
+    }
+
+    .finding__content {
+        padding: 0;
+    }
+
+    .traffic-helper {
+        margin-bottom: 0;
+    }
+
+    .finding__text {
+        margin-bottom: 25px;
+    }
+
+    .finding__item-row {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .finding__item-col {
+        padding-right: 0;
+    }
+
+    .finding__item-col:last-child {
+        padding: 20px 0;
+    }
+
+    .finding__content {
+        padding: 0;
+    }
+
+    .reasons {
+        margin-bottom: 45px;
+    }
+
+    .reasons__header {
+        padding: 0;
+    }
+
+    .reasons__input {
+        width: 100%;
+        min-width: 0;
+    }
+
+    .footer__copy {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer__copy-col {
+        padding: 5px 8px;
+    }
+}

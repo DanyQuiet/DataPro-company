@@ -1,0 +1,21 @@
+.logo {
+    margin-bottom: 100px;
+}
+.logo__row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.logo__item {
+    padding: 8px 10px;
+    flex: 0 1 16.66667%;
+    min-width: 120px;
+    text-align: center;
+
+    img {
+        max-width: 100%;
+    }
+}
